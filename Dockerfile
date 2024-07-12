@@ -1,5 +1,5 @@
 FROM openjdk:11
-#COPY . /src
+COPY olaunicamp.java /
 #WORKDIR /src
 RUN javac olaunicamp.java
 CMD ["java", "olaunicamp"]
